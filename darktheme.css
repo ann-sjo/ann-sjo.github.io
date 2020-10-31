@@ -17,25 +17,86 @@ h3 {
 	color: #49DC98;
 }
 
+h4 {
+	font-family: Helvetica;
+	color: #FFFFFF;
+}
+
+h5 {
+	font-family: Helvetica;
+	color: #49DC98;
+
 p {
 	font-size: medium;
 	text-align: justify;
 }
 
-.li links {
-	display: block;
+li a { 
+	text-decoration: none;
+	color: #1C1C1C;
+}
+
+li a:hover {
+	color: black;
 	background-color: white;
 }
-
-.box {
-	/*border-width: 4px;*/
-	/*border-style: solid;*/
-	/*border-color: #0AFF54;*/
-	/*background-color: A8A8FF;*/
-	/*padding: 3px;*/
-	/*margin: 3px;*/
+	
+.nav1 {
+	background-color: #D4D4D4;
+	/* border-style: solid; */
+	/* border-color: #49DC98; */
+	width: 50%;
 }
 
+.nav1 a {
+	overflow: hidden;
+	/* color: #A8A8FF; */
+}
+
+.nav1 li {
+	display: inline;
+	list-style-type: none;
+	padding: 5px;
+	margin: 5px;
+}
+
+.nav1 ul {
+	display: inline;
+	padding: 0px;
+}
+
+.nav2 {
+	color: #FFFFFF;
+	display: block;
+	border-width: 4px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	background-color: #49DC98;
+	padding-right: 0px;
+	margin-right: 0px;
+	position: fixed;
+	right: 50px;
+	width: 20%;
+	overflow: auto;
+}
+
+.nav2 a {
+	display: block;
+	overflow: hidden;
+	color: 49DC98;
+}
+
+.nav2 li {
+	list-style-type: none;
+}
+
+	
 .green {
 	color: #0AFF54;
+}
+
+.currentPage {
+	list-style-type: none;
+	cursor: none;
+	pointer-events: none;
 }
