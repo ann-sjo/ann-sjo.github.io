@@ -3,55 +3,129 @@
 	<head>
 		<title>Vinkkejä</title>
 		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 		<link rel="stylesheet" href="darktheme.css">
 	</head>
 	<body>
 	
 	<header>
-		<h1>Vinkkejä</h1>
+		<h1 class="header">Vinkkejä</h1>
+		<img src="munkuvat/LOGO.PNG" class="logo fluid" style="auto:69px;height:69px;">
 	</header>
 	
 	<nav>
-		<a href="Etusivu.html">Etusivu</a> |
-		<a href="Vinkkejä.html">Vinkkejä</a> |
-		<a href="Suosituksia.html">Suosituksia</a> |
-		<a href="Yksityisyys101.html">Yksityisyys 101</a> |
-		<a href="Galleria.html">Galleria</a>
+	<div class="container nav1">
+		<div class="row">
+			<div class="col-sm">
+				<li><a href="Etusivu.html" class="link">Etusivu</a></li>
+				<li><a href="Ota yhteytta.html">Ota yhteyttä</a></li>
+				<li><a href="Suosituksia.html">Suosituksia</a></li>
+				<li class="currentPage"><a href="Vinkkejä.html">Vinkkejä</a></li>
+			</div>
+		</div>
+	</div>
 	</nav>
 	
-	<nav>
-	<h3>Tämän sivun navigaatio</h3>
-		<a href="">Pikanäppäimet</a>
-		<a href="">Kuinka ratkaisen ongelman itse?</a>
-		<a href="">Kuinka ottaa yhteyttä minuun?</a>
-	</nav>
-	
+	<section>
+	<p><br><br><br></p>  <!--Pieni väli navigaation ja sisällön väliin-->
 	<h2>Pikanäppäimet</h2>
-	<p>.</p>
-	
-	<h2>Kuinka ratkaisen ongelman itse?</h2>
-	<p>Kannattaa yrittää aina ensin itse ratkaista tietokoneisiin 
-	liittyviä ongelmia. Vaikka et pitkän pohdiskelun jälkeen 
-	löytäisikään vastausta, voit säästää aikaa IT-tuelta, 
-	kun olet jo ehtinyt tutkimaan ongelmaa itse ja osaat selittää ongelman tarkemmin.</p>
-	
-	<p>Paras tapa useimpien IT-ongelmien selvittämiseen on "haarukoida" ongelmaa.
-	Jos esimerkiksi jokin verkkosivu ei lataudu, yritä päästä samaan osoitteeseen toisella selaimella.
-	Ongelma ei välttämättä ratkea, mutta nyt tiedät, että ongelma ei ollut selaimessa. Seuraavaksi kannattaa
-	kokeilla internet yhteyden vaihtamista (jos et kokeillut sitä ensimmäisenä). Jos kumpikaan ei toimi,
-	yksi viimeisimpiä mahdollisia tarkistuksen kohteita on laitteen tai selaimen asetuksissa. Liian kireät
-	asetukset laajennuksissa, keksien protokollassa tai jossakin muussa asetuksissa 
-	usein rikkoo verkkosivujen latautumisen tai sen "aivot" 
-	eli JavaScriptillä luodut (usein liikkuvat) osat.
-	<br>
-	Älä unohda, että uudelleen käynnistäminen on oikeasti toimiva ratkaisu joissakin tilanteissa.</p>
-	
-	<hr>
-	
-	<h2>Kuinka ottaa yhteyttä minuun?</h2>
-	<p>Kaikista nopein ja varmin tapa ottaa minuun yhteyttä on soittaa tai lähettää tekstiviestiä. 
-	Sähköpostia saa lähettää, mutta en lue yhtäkään niistä joka päivä.
-	(Projekti on vielä kesken. Lisään vasta lopuksi yhteystiedot, jos tulen siihen lopputulokseen.)</p>
-	
-	</body>
+		<p>
+		Seuraavat pikanäppäimet ovat käytössä Windows-käyttöjärjestelmissä.
+		<br>
+		<ul class="nodots">
+			<li>ctrl + C = Kopioi</li>
+			<li>ctrl + V = Liitä</li>
+			<li>ctrl + X = Leikkaa</li>
+			<li>ctrl + Z = Kumoa</li>
+			<li>ctrl + Y = Tee uudestaan</li>
+			<li>ctrl + F = Avaa hakupalkki (etsi sana/sanoja)</li>
+			<li>ctrl + S = Tallenna</li>
+		</ul>
+		Painamalla Alt + Tab avataan ruudun keskelle ikkuna, josta löytyy kaikki avatut sovellukset.
+		Jos Tab-näppäintä painaa vain kerran, sovellusten listassa seuraava valitaan.
+		Painamalla Tab-näppäintä useamman kerran, voi jättää valituksi haluamansa sovelluksen ja saada
+		tämän näkyviin päästämällä irti Alt-näppäimestä.
+		<br><br>
+		Jos haluat surffata välilehtiä samalla tavalla, valitse ensin selain ja paina sitten ctrl + Tab.
+		Tämä komento toimii samalla tavalla ja voi helpottaa netissä surffailua, jos sen ottaa tavaksi.
+		Jos et halua vaihtaa verkkosivua, mutta haluat silti avata linkin, laita ctrl pohjaan ja paina linkkiä.
+		Tämä avaa linkin uuteen välilehteen.
+		<br><br>
+		Muita hyödyllisiä näppäimiä ovat F5, kun haluat aloittaa PowerPoint esityksen alusta 
+		ja shift + F5 esityksen aloittamiseen sillä hetkellä valitusta diasta.
+		<br><br>
+		En vaivaudu tarkasti esittelemään ylihinnoitellun ja yliarvostellun Linux-distron, 
+		MacOS-käyttöjärjestelmän pikanäppäimet niille kolmelle Riku rikkaalle, jotka
+		sattuivat ostamaan Applen tietokoneen.
+		<br><br>
+		Applen koneissa on pitkälti hyvin samat oikotiet sun muut pikakomennot. Ctrl-
+		korvautuu vain komento-näppäimellä. Se näyttää neliöltä, jonka kulmat korvattiin ympyröillä.
+		Jätän kuitenkin linkin "Isoveli valvoo" Omenan tuki-sivustolle 
+		<a href="https://support.apple.com/fi-fi/HT201236" target="_blank">tähän.</a>
+		</p>
+		
+		<h2>Ilmaisohjelmat</h2>
+		<p>
+		Paras paikka löytää hyviä ja ilmaisia ohjelmia on 
+		<a href="https://www.ilmaisohjelmat.fi" target="_blank">ilmaisohjelmat.fi</a>. Tässä osiossa suosittelen
+		erilaisia ilmaisohjelmia, joista suurin osa löytyy kyseisestä osoitteesta.
+		<br><br>
+		CmapTools on suomennettu ja aika helppo käsitekartta-ohjelma. Itse koin alussa kuvien 
+		asettamisen hankalaksi, joten suosittelen ohjeisiin tutustumista, 
+		jos aiot käyttää kuvia tässä ohjelmassa.
+		<br><br>
+		Videoeditoreita löytyy monenlaisia jokaiseen lähtöön. Ajattelin suositella
+		Shotcut-editoria, koska sitä ei satu löytymään ilmaisohjelmien sivuilta.
+		<!--<br><br>Laita tähän lisää sovelluksia myöhemmin, ehkä.-->
+		</p>
+		
+		<h2>Vältä GAFA:a</h2>
+		<p>
+		Google, Amazon, Facebook ja Apple tekevät yhdessä lyhenteen GAFA, jokaisen
+		yksityisyyttä, ilmaisia ohjelmistoja ja käyttöjärjestelmiä arvostavan 
+		tietokonenörtin kirosanan.
+		<br><br>
+		Google kerää häikäilemättömästi kaikilta tietoa, muodostakseen super-keksejä.
+		Näiden avulla ihmisiä on helppo tunnistaa jopa siitä, kuinka he 
+		kirjoittavat näppäimistöllään. Yritys on myös huhujen mukaan hidastanut 
+		Youtuben toimintaa selaimissa, jotka eivät ole Googlen omistuksessa kuten Chrome.
+		<br><br>
+		Facebookin perustajat ovat usein haukkuneet ihmisiä siitä, että nämä ovat antaneet
+		arkaluontoista tietoa heille.
+		Pidä mielessä, että Facebook omistaa Instagramin ja Whatsapin.
+		<br><br>
+		Amazon kohtelee työntekijöitään huonosti ja antaa potkut heti jos työntekijä edes 
+		vihjaa työväen liittoutumisesta. Yrityksen omistaja kylpee rahassa, kun hänen työntekijänsä
+		hädin tuskin yrittävät maksaa elämisen kustannukset. Pidä se mielessä kun näet 
+		amazonin jäljittimissä, joita Privacy Badger ja samankaltaiset sovellukset saavat estää.
+		<br><br>
+		Apple ei pysty salamyhkäisyydellään peittelemään sen suuria ja järjettömiä hintoja. 
+		Arvattavasti tämä sama salailu antaa Applelle tilaisuuden kerätä mitä tahansa tietoa 
+		se haluaakaan käyttäjistään. Mitkään markkinoinnin tai korkeammman johdon lausunnot eivät
+		riitä yksityisyyden takuuksi.
+		</p>
+		
+		<container>
+		<h2>Ota käyttöön GNU/Linux</h2>
+			<figure>
+			<img src="eimunkuvat/Tux.PNG" alt="Tux" class="fluid" style="width:133px;height:157px;">
+			</figure>
+		<p>
+		GNU on lyhenne, joka tarkoittaa vapaiden ohjelmistojen julkaisemisen lisenssiä. 
+		Tämä antaa kenelle tahansa oikeuden muokata, käyttää ja jakaa ohjemaa sekä sen lähdekoodia.
+		Jopa muunnellut teokset, jotka ovat GPL-koodiin pohjautuvia, on pidettävä ilmaisina 
+		ilman minkäänlaisia rajoitteita. Koska Linux käyttöjärjestelmät perustuvat ilmaiseen 
+		ja avoimeen lähdekoodiin, GNU-projektin illmaiset ohjelmistot sopivat siihen hyvin.
+		Suurin osa Linux-käyttöjärjestelmistä ovatkin suurimmalta osin GPL-ohjelmista rakennettuja.
+		<br><br>
+		Mutta miksi kannattaa käyttää ilmaisia ohjelmia ja käyttöjärjestelmiä? No miksipä ei?
+		Samanlainen tuote, mutta ilmainen ja joskus jopa paljon parempi!
+		Ei siinä mene kauheasti aikaa ottaa selvää, onko kyseinen ilmainen sovellus hyvä työkalu vai ei.
+		Olen jo ehtinyt suositella useita ilmaisia ohjelmia, enkä ole todellakaan 
+		ainoa satunnainen Matti Meikäläinen, jolla riittä suosituksia. 
+		Laita vain kysymys yksityiseen hakukoneeseesi ja vertaile vaihtoehtoja.
+		</p>		
+	</section>
 </html>
+	
