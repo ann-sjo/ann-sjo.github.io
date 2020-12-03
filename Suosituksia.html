@@ -3,123 +3,222 @@
 	<head>
 		<title>Suosituksia</title>
 		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 		<link rel="stylesheet" href="darktheme.css">
 	</head>
 	<body>
 	
 	<header>
-		<h1>Suosituksia</h1>
+		<h1 class="header">Suosituksia</h1>
+		<img src="munkuvat/LOGO.PNG" class="logo" style="auto:69px;height:69px;">
 	</header>
 	
 	<nav>
-		<a href="Etusivu.html">Etusivu</a> |
-		<a href="Vinkkejä.html">Vinkkejä</a> |
-		<a href="Suosituksia.html">Suosituksia</a> |
-		<a href="Yksityisyys101.html">Yksityisyys 101</a> |
-		<a href="Galleria.html">Galleria</a>
+	<div class="container nav1">
+		<div class="row">
+			<div class="col-sm">
+				<li><a href="Etusivu.html" class="link">Etusivu</a></li>
+				<li><a href="Ota yhteytta.html">Ota yhteyttä</a></li>
+				<li class="currentPage"><a href="Suosituksia.html">Suosituksia</a></li>
+				<li><a href="Vinkkejä.html">Vinkkejä</a></li>
+			</div>
+		</div>
+	</div>
 	</nav>
 	
-	<nav>
-		<h3>Tämän sivun navigaatio</h3>
-		<a href="">Pieni varoituksen sana</a>
-		<a href="">Hakukone-suositukset</a>
-		<a href="">Selain-suositukset</a>
-		<a href="">Firefoxin parhaat laajennukset</a>
-		<a href="">Vältä GAFA:a</a>
-		<a href="">Ilmaisohjelmat</a>
-	</nav>
 	
 	<section>
-	<h2>Pieni varoituksen sana</h2>
-	<p>Tämä sivu on täynnä tavaraa, joten en suosittele lukemaan sitä kokonaan yhdeltä istumalta. 
-	Et välttämättä tullut lukemaan kokonaista essettä, 	joten voit käyttää ylhäältä löytyvää navigaatiota 
-	ja hypätä suoraan kiinnostavaan kohtaan painamalla linkkiä.
-	</p>
-	<p>
-	Jos olet raskaan sarjan tietokonenörtti, niin siitä vaan. Kukaan ei sinua estä kahlaamasta koko sivua läpi.
-	Palautettakin saa lähettää perään, jos tekee mieli väitellä nykyhetken parhaista ohjelmista.
-	</p>
-	<p>
-	Ota huomioon, että sivulla suositellaan ohjelmia tietokoneiden näkökulmasta, 
-	mutta useimmat suositukset pätevät myös mobiilin.
-	</p>
-	
-	<h2>Hakukone-suositukset</h2>
-	<p></p>
-	
-	<ul> <h4>DuckDuckGo</h4>
-		<li class="green"> Ei vääristä hakutuloksia käyttäjän aiempien hakujen perusteella
-		<li class="green"> Yksityinen valinta
-	</ul>
-	
-	<ul> <h4>Ecosia</h4>
-		<li class="green"> Hakukoneen käytöllä tuetaan puiden istutusta
-		<li class="green"> Ei kerää käyttäjästä turhaan dataa
-	</ul>
-	
-	<h2>Selain-suositukset</h2>
-	<p>Jos haluaa </p>
-	
-	<h4>Brave</h4>
-	<ul>
-		<li class="green">Helppokäyttöinen, sopii aloittelijoille
-		<li class>Käyttöliittymää ei voi muuttaa suomeksi
-		<li class>Ulkoasun muokkaaminen on kuivaa, ellei käyttä chrome web storea
-	</ul>
-	
-	<h4>Firefox</h4>
-	<ul>
-		<li class="green"> Hyvin pitkälle räätälöitävät yksityisyysasetukset
-	</ul>
-	
-	<h2>Parhaat laajennukset</h2>
-	<p>Tässä osiossa esittelen lempi laajennukseni heille,
-	joilla ei ole aikaa perehtyä kaikkiin IT-lehtien suosituksiin
-	tai Youtube-tutoriaalien maailmaan.
-	<br>
-	Vaikka olisitkin jo lukenut aiheesta paljon, voit silti löytää tästä listasta
-	kiinnostavia suosituksia. Näistä voi löytyä hyötyä myös kokeneelle konkarille.
-	</p>
-	
-	<h3>Annin top 11 Firefox laajennusta (ei tärkeässä järjestyksessä)</h3>
-	<ul>
-		<li>HTTPS Eveywhere
-		<li>CanvasBlocker
-		<li>Decentraleyes
-		<li>Cookie AutoDelete
-		<li>Don't touch my tabs!
-		<li>ClearURLs
-		<li>uBlock origin
-		<li>Privacy Badger
-		<li>Dark Reader
-		<li>Bitwarden
-		<li>Enhancer for Youtube
-	</ul>
-	
-	<h2>Huonoja laajennuksia</h2>
-	<p>
-	Lastpass on toimittajien mielestä ensisilmäyksellä aika mukava vaihtoehto.
-	Harmillisesti, sen yksityisyys ei ole ollut vähään aikaan tarpeeksi korkeaa luokkaa.
-	Lastpassin kohdalla kannattaa ottaa hard pass ja sen sijaan valita Bitwarden.
-	<br>
-	</p>
-	
-	
-	<h2>Vältä GAFA:a</h2>
-	<p></p>
-	
-	<h2>Ilmaisohjelmat</h2>
-	<p>Paras paikka löytää hyviä ja ilmaisia ohjelmia on 
-	<a href="ilmaisohjelmat.fi">ilmaisohjelmat.fi</a>. Tässä osiossa suosittelen
-	erilaisia ilmaisohjelmia, joista suurin osa löytyy kyseisestä osoitteesta.
-	<br>
-	CmapTools on suomennettu ja aika helppo käsitekartta-ohjelma.
-	
-	<br>
-	Videoeditoreita löytyy monenlaisia jokaiseen lähtöön. Ajattelin suositella
-	Shotcut-editoria, koska sitä ei satu löytymään ilmaisohjelmien sivuilta.	
-	</p>
+	<p><br><br><br></p>  <!--Pieni väli navigaation ja sisällön väliin-->
+		<h2>Aluksi</h2>
+		<p>Kehoitan lukijaa ottamaan huomioon, että sivulla suositellaan 
+		ohjelmia tietokoneiden näkökulmasta, mutta jotkin suositukset 
+		pätevät myös mobiililaitteisiin ja tabletteihin. 
+		Tieto saattaa myös vanhentua parin kuukauden sisällä, 
+		joten oman tutkimuksen tekeminen on suositeltua.
+		</p>
+		
+		<h2>Hakukone-suositukset</h2>
+		<p>Jos haluaa hakukoneen, joka kunnioittaa käyttäjien yksityisyyttä, 
+		toisin kuin Google, Yahoo ja Bing, kannattaa valita kyseinen työkalu huolella.</p>
+		<ul><h5>DuckDuckGo</h5>
+			<li class="green"> Ei vääristä hakutuloksia käyttäjän aiempien hakujen perusteella </li>
+			<li class="green"> Hakukoneista yksityisyyden kärjessä </li>
+		</ul>
+		
+		<ul><h5>Ecosia</h5>
+			<li class="green"> Hakukoneen käytöllä tuetaan puiden istutusta </li>
+			<li class> Yksityisyys ei ole kärkiluokkaa, mutta parempi kuin Googlen </li>
+		</ul>
+		
+		<ul><h5>StartPage</h5>
+			<li class="green">Hakukoneista kaikista yksityisin</li>
+			<li class="green">Tarjoaa käyttäjälleen mahdollisuuden tarkistella sivustoja anonyyminä</li>
+		</ul>
+		
+		<h2>Selain-suositukset</h2>
+		<p>
+		Oletko koskaan pohtinut; "Tämä Microsoftin selain on aika huono, pitääpä ladata parempi." 
+		Jos vastasit kyllä, onneksi olkoon, puolet matkasta on jo suunniteltu. Nyt kysymys vain kuuluu, 
+		mikä selain on kaikista parhain? Minulla on kaksi suositusta, joista kerron lisää kunhan olen ensin esitelly ne.
+		
+		</p>
+		<ul><h5>Brave</h5>
+			<li class="green">Oletuksena estää mainoksia ja jäljittimiä, tarjoaa myös yksityisen Tor-selausikkunan</li>
+			<li class="green">Helppokäyttöinen, sopii aloittelijoille</li>
+			<li class>Käyttöliittymää ei voi muuttaa suomeksi</li>
+			<li class>Oletuksena näyttää sponsoroitua materiaalia, sen voi kuitenkin laittaa pois päältä</li>
+		</ul>
+		
+		<p>Brave on tulevaisuuden selain, ja sillä on vielä monta vuotta edessä. 
+		Vaikka selaimen ulkonäön muokkaus ja lisäosien hallinta nojaakin Chromen selainkauppaan, 
+		on Brave helppo suositus jokaiselle laitteelle.</p>
+		
+		<ul><h5>Firefox</h5>
+			<li class="green">Hyvin pitkälle räätälöitävät yksityisyysasetukset tekevät selaimesta loistavan vaihtoehdon pienen säädön jälkeen</li>
+			<li class>Oletuksena kerää tietoja käyttäjästään, ja pitää Googlea oletushakukoneena</li>
+			<li class>Firefox-tilin synkronointi on tehty askeleen turhan hankalaksi, sillä tili pyydetään
+			synkronoimaan myös mobiililaitteen kanssa</li>
+		</ul>
+		
+		<p>Firefox on valitettavasti hiipuva projekti, joka on menneinä aikoina ollut yksityisyyden kärkiluokkaa.
+		Nykypäivänä en ole yhtä innokas suosittelemaan sitä, mutta se on kyllä pienellä vaivannäöllä askeleen parempi kuin Chrome.</p>
+		
+		<h2>Parhaat laajennukset</h2>
+		<p>
+		Tässä osiossa esittelen lempi laajennukseni heille,
+		joilla ei ole aikaa perehtyä kaikkiin IT-lehtien suosituksiin
+		tai Youtube-tutoriaalien maailmaan.
+		Nämä voi asentaa ainakin kaikkiin Chromeen perustuviin selaimiin ja Firefoxiin.
+		</p>
+		
+		<h3>Annin top 10 laajennusta (ei tärkeässä järjestyksessä)</h3>
+		<ul>
+			<li>HTTPS Eveywhere
+			<li>CanvasBlocker
+			<li>Decentraleyes
+			<li>Cookie AutoDelete
+			<li>Don't touch my tabs!
+			<li>ClearURLs
+			<li>uBlock origin
+			<li>Privacy Badger
+			<li>Dark Reader
+			<li>Enhancer for Youtube
+		</ul>
+		<h3>Yksityisyys-laajennukset:</h3>
+		<p>
+		HTTPS Everywhere on hyvin yksinkertainen. 
+		Laajennus muuttaa http-osoitteet salatuiksi, ja pitää huolen siitä, että salaus myös toimii. 
+		Jotkin sivut eivät pysty pitämään salattujen sivujen sisäisiä linkkejä salattuna, 
+		mutta tämä sovellus hoitaa homman puolestasi. 
+		Sovellus täyttää Firefoxin standardin turvallisuuden ja suorituskyvyn kannalta.
+		<br><br>
+		CanvasBlocker estää sivustoja ottamasta kuvaa ikkunastasi. 
+		Tämä on ainoa suosittelemani sovellus, joka ei täytä Firefoxin standardia.
+		Tästä eteenpäin kaikki suosittelemani laajennukset ovar saaneet Firefox-tiimin suosituksen.
+		<br><br>
+		Decentraleyes korvaa sivustojen sisällön, joka tuo mukanaan jäljittimiä paikallisilla, yksityisillä elementeillä.
+		Voit käydä tarkistamassa toimiiko laajennus <a href="https://decentraleyes.org/test/" target="_blank">tämän</a> linkin kautta.
+		Ota huomioon, että sinun pitää antaa sivuston scripteille lupa toimia, 
+		jos olet jo asettanut jäljittimiä estäviä laajennuksia. 
+		<!-- Jostain syystä vain tämän kappaleen linkki ei ole oranssi, 
+		mutta väri vaihtui oikeaksi kaikissa muissa linkeissä kun selain on Brave
+		(Firefoxissa yksikään linkki ei ollut oikean värinen). -->
+		<br><br>
+		Cookie AutoDelete tekee keksien poistamisesta paljon helpompaa, koska sinun ei tarvitse enää tehdä sitä!
+		Kun suljet välilehden, laajennus poistaa välilehdellä kerätyt keksit. 
+		Jos haluat keksien poistamisen tapahtuvan ennen välilehden sulkemista, sekin onnistuu pienellä säädöllä.
+		<br><br>
+		Don't touch my tabs! (rel=noopener) estää avatun linkin ottamasta aikaisempaa välisivua haltuunsa.
+		Tämän tempun estäminen voi olla hyvin arvokasta, 
+		sillä hakkerit voivat käyttää tätä temppua kalastaakseen kirjautumistietoja.
+		<br><br>
+		ClearURLS on jälleen kerran jäljittimien estämiseen erikoistunut laajennus, tällä kertaa linkeille.
+		Kyllä, pitkät linkit ovat täynnä turhaa koodia, jonka poistaminen ei riko verkkosivua. ClearURLS 
+		tekee linkistä paljon helpompaa lukemista ja jäljittimistä vapaan.
+		<br><br>
+		Privacy Badger oppii itse estämään seuraimia. 
+		Sinun ei siis tarvitse itse estää jokaista jäljitintä, joka ei kuuntele Do Not Track pyyntöjä, 
+		sillä Privacy Badger hoitaa asian automaattisesti. Tämän lisäksi PB korvaa erilaisten media elementtien
+		jäljittimet suojatuilla versioilla.
+		</p>
+		
+		<!--Laita tähän bonus-suositus myöhemmin-->
+		
+		<h3>Käytännön laajennukset:</h3>
+		<p>
+		Dark Reader tekee vaalean värisistä sivuista silmäystävällisempiä. Se on nimensä mukaan laajennus, 
+		joka tekee lukemisesta pimeässä parempaa.
+		<br><br>
+		Enhancer for Youtube on todella kätevä keksintö. Youtuben autoplay-toiminto 
+		on heti ilmestymisensä jälkeen ollut opettajien ja opetusharjoittelijoiden päänvaiva.
+		Autoplay on aina oletuksena päällä, mutta EfYT korjaa tämän hirveä virheen, 
+		kun käyt laittamassa sen pois päältä asetuksissa.
+		<br><br>
+		Vaan ei tässä vielä kaikki! Kuten NewPipe, tämä objektiivisesti parempi projekti kuin Youtuben
+		sovellus-versio tarjoaa käyttäjälleen ponnahdusikkunan videon samanaikaiseen katsomiseen 
+		ja esimerkiksi kommenttien selaamiseen.
+		</p>
+		
+		<h2>Pidä mielessä</h2>
+		<p>
+		Kaikkien sovellusten, erityisesti selaimeen liittettyjen laajennusten luotettavuus 
+		voi muuttua yllättäenkin. Kannattaa siis pitää ladattuja laajennuksia silmällä 
+		mahdollisen vilunkipelin varalta.
+		<br><br>
+		Esimerkiksi Lastpass on jonkin aikaa ollut toimittajien mielestä aika mukava vaihtoehto.
+		Harmillisesti, sen yksityisyys ei ole ollut vähään aikaan tarpeeksi korkeaa luokkaa.
+		Epäluotettava yritys osti laajennuksen, eikä LastPass ole sen jälkeen ollut luotettava.
+		Lastpassin kohdalla kannattaa siis ottaa hard pass.
+		<br><br>
+		Kuten aikaisemmin jo mainitsin, Firefox on rapistunut luotettavuutensa kannalta. 
+		Koska sen nykyinen johto on paljon kiinnostuneempi rahasta, selaimen yksityisyys
+		tulee todennäköisesti rapistumaan tulevaisuudessa. Tämä on huono juttu meidän yksityisyysnörttien
+		näkökulmasta, sillä Mozilla Firefox on perustana Tor-projektille, joka on tällä hetkellä paras
+		vaihtoehto yksityisten selainten markkinoilla.
+		<br><br>
+		Voit seurata useiden erilaisten palveluiden yksityisyyttä 
+		ja käyttäjäystävällisyyttä <a href="https://tosdr.org" target="_blank">tämän</a> sivuston kautta.
+		Sivuston dataa voi hyödyntää myös laajennuksen kautta, mutta suosittelen pitämään jokaisen selaimen
+		ladattujen laajennusten määrän mahdollisimman matalana, koska yksinkertaisuus on osana
+		yksityisyyden perustaa. Jätän vielä nappaamiani kuvakaappauksia esimerkkinä.
+		</p>
+		
+		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+				<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+				<li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="eimunkuvat/Ecosia.PNG" class="img-fluid" alt="Screenshot: Ecosia">
+				</div>
+				<div class="carousel-item">
+					<img src="eimunkuvat/DuckDuckGo.PNG" class="img-fluid" alt="Screenshot: DuckDuckGo">
+				</div>
+				<div class="carousel-item">
+					<img src="eimunkuvat/StartPage.PNG" class="img-fluid" alt="Screenshot: StartPage">
+				</div>
+				<div class="carousel-item">
+				<img src="eimunkuvat/Signal.PNG" class="img-fluid" alt="Screenshot: Signal">
+				</div>
+			</div>
+		  <br><br>
+			<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
 	</section>
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 	
 	</body>
 </html>
