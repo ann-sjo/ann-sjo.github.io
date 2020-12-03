@@ -2,34 +2,41 @@ body {
 	background-color: #1C1C1C;
 	color: #A8A8FF;
 	font-family: Calibri;
-	width: 80%;
+	width: 75%;
 	margin-right: auto;
 	margin-left: auto;
 }
 
+h1 {
+	color: #A8A8FF;
+}
+
 h2 {
 	font-family: Helvetica;
-	color: 0AFF54;
+	color: #FFA731;
 }
 
 h3 {
 	font-family: Helvetica;
-	color: #49DC98;
+	color: #FFA731;
 }
 
 h4 {
 	font-family: Helvetica;
-	color: #FFFFFF;
+	color: #FFA731;
 }
 
 h5 {
 	font-family: Helvetica;
-	color: #49DC98;
+	color: #FFA731;
+}
 
 p {
 	font-size: medium;
 	text-align: justify;
 }
+
+
 
 li a { 
 	text-decoration: none;
@@ -37,27 +44,45 @@ li a {
 }
 
 li a:hover {
-	color: black;
-	background-color: white;
+	color: #000000;
+	background-color: #FFA731;
 }
-	
+
+li a.active {
+	background-color: #FFA731;
+	/* color: white; */
+}
+
+li a:visited {
+	color: #1C1C1C;
+}
+
+a:visited {
+	color: #FFA731;
+}
+
+
+
 .nav1 {
-	background-color: #D4D4D4;
-	/* border-style: solid; */
-	/* border-color: #49DC98; */
-	width: 50%;
+	background-color: #A8A8FF;
+	width: 100%;
+	position: fixed;
+	left: 69px;
+	top: 45px;
 }
 
 .nav1 a {
 	overflow: hidden;
-	/* color: #A8A8FF; */
+	color: #1C1C1C;
+	text-decoration: none;
 }
 
 .nav1 li {
 	display: inline;
 	list-style-type: none;
-	padding: 5px;
-	margin: 5px;
+	padding: 3px;
+	margin: 3px;
+	color: #1C1C1C;
 }
 
 .nav1 ul {
@@ -65,38 +90,55 @@ li a:hover {
 	padding: 0px;
 }
 
-.nav2 {
-	color: #FFFFFF;
-	display: block;
-	border-width: 4px;
-	border-style: solid;
-	border-color: #FFFFFF;
-	background-color: #49DC98;
-	padding-right: 0px;
-	margin-right: 0px;
-	position: fixed;
-	right: 50px;
-	width: 20%;
-	overflow: auto;
-}
-
-.nav2 a {
-	display: block;
-	overflow: hidden;
-	color: 49DC98;
-}
-
-.nav2 li {
-	list-style-type: none;
-}
-
-	
 .green {
 	color: #0AFF54;
+}
+
+.red {
+	color: #FF8585;
 }
 
 .currentPage {
 	list-style-type: none;
 	cursor: none;
 	pointer-events: none;
+	background-color: #FFA731;
 }
+
+.logo{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+
+.fluid{
+	max-width: 100%;
+	height: auto;
+}
+
+.header{
+	position: fixed;
+	left: 75px;
+	top: 0px;
+	background-color: #1C1C1C;
+}
+
+.nodots{
+	list-style-type: none;
+}
+
+.carousel-item img{
+	margin: auto;
+	display: block;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    background-color: #A8A8FF;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
