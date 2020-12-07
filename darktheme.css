@@ -2,7 +2,6 @@ body {
 	background-color: #1C1C1C;
 	color: #A8A8FF;
 	font-family: Calibri;
-	width: 75%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -14,32 +13,52 @@ h1 {
 h2 {
 	font-family: Helvetica;
 	color: #FFA731;
-}
-
-h3 {
-	font-family: Helvetica;
-	color: #FFA731;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 h4 {
 	font-family: Helvetica;
 	color: #FFA731;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 h5 {
-	font-family: Helvetica;
 	color: #FFA731;
 }
+
+h3 {
+	font-family: Helvetica;
+	color: #1C1C1C;
+} 
 
 p {
 	font-size: medium;
 	text-align: justify;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
+ol {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
 
+ul {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
 
 li a { 
 	text-decoration: none;
+	text-align: center;
+	padding: 3px 4px;
 	color: #1C1C1C;
 }
 
@@ -50,7 +69,6 @@ li a:hover {
 
 li a.active {
 	background-color: #FFA731;
-	/* color: white; */
 }
 
 li a:visited {
@@ -61,18 +79,17 @@ a:visited {
 	color: #FFA731;
 }
 
-
-
 .nav1 {
 	background-color: #A8A8FF;
 	width: 100%;
-	position: fixed;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
 	left: 69px;
 	top: 45px;
 }
 
 .nav1 a {
-	overflow: hidden;
 	color: #1C1C1C;
 	text-decoration: none;
 }
@@ -88,6 +105,13 @@ a:visited {
 .nav1 ul {
 	display: inline;
 	padding: 0px;
+	
+}
+
+fieldset {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .green {
@@ -106,7 +130,7 @@ a:visited {
 }
 
 .logo{
-	position: fixed;
+	position: absolute;
 	left: 0px;
 	top: 0px;
 }
@@ -116,8 +140,12 @@ a:visited {
 	height: auto;
 }
 
+.right {
+	float: right;
+}
+
 .header{
-	position: fixed;
+	position: absolute;
 	left: 75px;
 	top: 0px;
 	background-color: #1C1C1C;
@@ -132,7 +160,6 @@ a:visited {
 	display: block;
 }
 
-
 .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 50px;
     width: 50px;
@@ -142,3 +169,20 @@ a:visited {
     border: 1px solid white;
 }
 
+.jumbotron {
+	color: #1C1C1C;
+	background-color: #A8A8FF;
+}
+
+.jumbotron2 {
+	padding: 30px;
+	color: #1C1C1C;
+	/* background-color: #A0AAE1; */
+	background-color: #FFC375;
+}
+
+.jumbotron3 {
+	padding: 30px;
+	color: #1C1C1C;
+	background-color: #E0C59E;
+}
