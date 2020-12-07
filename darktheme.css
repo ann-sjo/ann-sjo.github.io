@@ -118,10 +118,6 @@ fieldset {
 	color: #0AFF54;
 }
 
-.red {
-	color: #FF8585;
-}
-
 .currentPage {
 	list-style-type: none;
 	cursor: none;
@@ -138,10 +134,6 @@ fieldset {
 .fluid{
 	max-width: 100%;
 	height: auto;
-}
-
-.right {
-	float: right;
 }
 
 .header{
@@ -172,17 +164,4 @@ fieldset {
 .jumbotron {
 	color: #1C1C1C;
 	background-color: #A8A8FF;
-}
-
-.jumbotron2 {
-	padding: 30px;
-	color: #1C1C1C;
-	/* background-color: #A0AAE1; */
-	background-color: #FFC375;
-}
-
-.jumbotron3 {
-	padding: 30px;
-	color: #1C1C1C;
-	background-color: #E0C59E;
 }
