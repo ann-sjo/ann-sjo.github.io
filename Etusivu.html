@@ -1,63 +1,66 @@
 <!DOCTYPE html>
 <html lang="fi"> <!--Selaimet haluavat tietää, mitä kieltä ja merkkejä sivun rakentamiseen tarvitaan.-->
 	<head>
-		<title>Annin IT-tuki</title>
+		<title>Annin IT-Tuki</title> <!--Tähän laitetaan välisivun otsikko.-->
 		<meta charset="utf-8"/> <!--Tämä komento lataa tarvittavat merkit.-->
-		<link rel="stylesheet" href="darktheme.css"> <!--Linkki tyylin määrittävään tiedostoon.--> 
-	</head>
-	<body>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+		<link rel="stylesheet" href="darktheme.css"> <!--Relatiivinen linkki sivun tyylin eli ulkonön määrittävään tiedostoon.--> 
+	</head> <!--Rivillä 6 on metatagi, joka tekee sivustosta mobilii-laitteelle ystävällisemmän.-->
+	<body> <!--Rivi 7 on tällä sivulla vain yhtenäisen tyylin säilyttämiseen, en hyödynnä bootstrapin tuomia etujä täällä.-->
 	
 	<header>
-	<h1>Etusivu</h1>
+		<h1 class="header">Etusivu</h1>
+		<img src="munkuvat/LOGO.PNG" class="logo fluid" style="width:69px;height:69px;" alt="Mouse logo">
 	</header>
 	
-	<nav>
-	<a href="Etusivu.html">Etusivu</a> |
-	<a href="Vinkkejä.html">Vinkkejä</a> |
-	<a href="Suosituksia.html">Suosituksia</a> |
-	<a href="Yksityisyys101.html">Yksityisyys 101</a> |
-	<a href="Galleria.html">Galleria</a>
+	<nav class="container nav1">
+		<div class="row">
+			<div class="col-sm">
+				<li class="currentPage"><a href="Etusivu.html">Etusivu</a></li> <!--Linkit upotetaan tekstiin käyttämällä joko absoluuttisia tai relatiivisia linkkejä.-->
+				<li><a href="Ota yhteytta.html">Ota yhteyttä</a></li>
+				<li><a href="Suosituksia.html">Suosituksia</a></li>
+				<li><a href="Vinkkejä.html">Vinkkejä</a></li>
+				<li><a href="Galleria.html">Galleria</a></li>
+			</div>
+		</div>
 	</nav>
 	
-	<nav>
-	<h3>Tämän sivun navigaatio</h3>
-	<a href="">Johdanto</a>
-	<a href="">Työn eteneminen</a>
-	<a href="">Haasteet ja ratkaisut</a>	
-	</nav>
+	<section>
+		<p><br><br><br></p>  <!--Pieni väli navigaation ja sisällön väliin-->	
+		<h2>Hei lukija!</h2> <!--Koska kirjoitan koodia pienessä ikkunassa, rivitin tekstin näkymään siihen paremmin.-->
+		<p>Tämä sivusto on osa "R0244-3006 Verkkosivujen kehittäminen" -kurssia.
+		Saimme tehtäväksemme luoda ainakin neljä html (Hyper Text Markup Language) dokumenttia, 
+		joilla demonstroimme oppineemme kurssin tavoitteet.
+		<br><br> 
+		<!--Kappalejako onnistuu myös laittamalla teksti kokonaan eri kappaleisiin, mutta halusin kokeilla toimiiko se näinkin.-->
+		Kurssin tavoitteisiin kuuluu html-perusteiden lisäksi: 
+		CSS-tyylimäärittely, Front-End-kehyksien eli Bootstrapin hyödyntäminen, 
+		domainin ja web-hotellin hankita prosessi sekä sivuston siirto palvelimelle.
+		<br><br>
+		Verkkosivujen aihe/teema sai olla mikä tahansa, ja valitsin
+		pienen sisäpiirin vitsin omaan projektiini. Päätin siis luoda verkkosivuston, 
+		jonka voin jakaa esimerkiksi perheenjäsenelle, 
+		jolla on IT-ongelmia. Sivuilta löytyy myös suosituksia 
+		ja vinkkejä yleisesti tietokoneisiin liittyen. 
+		<br><br>
+		Tämä mielessä, esittelisin mielelläni verkkosivun luurangon sivua 
+		lukevalle perheenjäsenelle, vaikka HTML onkin hänelle hepreaa.
+		Joudun kuitenkin olettamaan, että tulevaa ohjetta seuraava henkilö on avannut tämän
+		sivun kannettavalla koneella, työpöytäkoneella tai jollakin muulla laitteella, johon on
+		kiinnitetty hiiri.
+		</p>
 	
-	<h2>Johdanto</h2> <!--Koska kirjoitan koodia pienessä ikkunassa, rivitin tekstin näkymään siihen.-->
-	<p>Tämä sivusto on osa "R0244-3006 Verkkosivujen kehittäminen" -kurssia.
-	Saimme tehtäväksemme luoda ainakin kolme html (Hyper Text Markup Language) dokumenttia, 
-	joilla demonstroimme oppineemme kurssin tavoitteet.
-	<br>
-	Kurssin oppilaiden tavoitteisiin kuuluu html-perusteiden lisäksi: 
-	CSS-tyylimäärittely, Front-End-kehyksien eli Bootstrapin hyödyntäminen, 
-	domainin ja web-hotellin hankitaprosessi sekä sivuston siirto palvelimelle.</p>
+		<p>Avaa sivun lähdekoodi, jos sinua kiinnostaa kuulla lisää näiden verkkosivujen rakentamisesta.</p>
+		<ol>
+			<li>Paina hiiren oikeaa näppäintä jossakin tyhjässä kohdassa tätä sivua. 
+			(Tyhjä kohta tarkoittaa tässä tapauksessa mitä tahansa pikseliä, jossa ei ole linnkiä.)</li>
+			<li>Valitse "Näytä sivun lähdekoodi" / "View page source".</li>
+			<li>Se oli siinä. Nyt näet millä komennoilla sivu on rakennettu 
+			ja voit lukea jättämäni kommentit.</li> <!--Niitä ei ollut loppujen lopuksi paljon.-->
+		</ol>
 	
-	<p>Verkkosivujen aihe/teema sai olla mikä tahansa, ja valitsin
-	pienen sisäpiirin vitsin omaan projektiini. Päätin siis luoda verkkosivuston, 
-	jonka voin jakaa esimerkiksi perheenjäsenelle, 
-	jolla on IT-ongelmia.</p>
-	
-	<p>Suunnittelin sivujen väriteeman viileäksi ja mahdollisimman tummaksi, 
-	jotta se olisi silmäystävällinen.</p>
-	
-	<p>Jos sinua kiinnostaa kuulla lisää näiden verkkosivujen rakentamisesta, 
-	seuraa tämän listan ohjeita:</p>
-	
-	<h2>Työn eteneminen</h2>
-	<p></p>
-	
-	<h2>Haasteet ja ratkaisut</h2>
-	<p></p>
-	
-	<ol>
-	<li>Paina hiiren oikeaa näppäintä jossakin tyhjässä kohdassa tätä sivua. 
-	(Tyhjä kohta tarkoittaa mitä tahansa pikseliä, jossa ei ole linnkiä.)
-	<li>Valitse "Näytä sivun lähdekoodi" / "View page source"
-	<li>Se oli siinä! Nyt näet millä komennoilla sivu on rakennettu ja voit lukea jättämäni kommentit.
-	</ol>
-	
+		</p>
+	</section>
 	</body>
 </html>
