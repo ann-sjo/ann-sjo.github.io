@@ -11,7 +11,7 @@
 	
 	<header>
 		<h1 class="header">Ota yhteyttä</h1>
-		<img src="munkuvat/LOGO.PNG" class="logo" style="width:69px;height:69px;" alt="Logo">
+		<img src="munkuvat/LOGO.PNG" class="logo fluid" style="width:69px;height:69px;" alt="Mouse logo">
 	</header>
 	
 	<nav class="container nav1">
@@ -50,16 +50,26 @@
 		Älä unohda, että uudelleen käynnistäminen on oikeasti toimiva ratkaisu joskus.
 		</p>
 		<br>
+		<div class="jumbotron jumbotron fluid">
 		<fieldset>
-			<legend>Ota yhteyttä</legend>
-			<label>.</label><br>		
-				  <label for="comment">Kuvaile mikä on vikana:</label>
-				  <textarea class="form-control" rows="5" cols="70" id="text_area"></textarea>
-				  <br>
+			<legend><h3>Ota yhteyttä</h3></legend>
+			<!--Huom! Nämä kentät vain demonstroivat osaamista, jos perheenjäsenellä on IT-pulma, hän soittaa suoraan.-->
+				<label>Anna etunimesi:</label>
+					<input type="text" id="name" placeholder="Syötä nimesi" required>
+				<br>
+				<label>Anna E-mail osoite:</label>
+					<input type="text" id="email" placeholder="Syötä sähköpostisi" required>
+				<br>
+				<label>Ongelma on kiireellinen</label>
+					<input type="checkbox" id="checkbox">
+				<br>
+				<label for="comment">Kuvaile mikä on vikana:</label>
+					<textarea class="form-control" rows="5" cols="70" id="text_area"></textarea>
+				<br>
 				<input type="submit" value="Lähetä">
 			</form>
 		</fieldset>
-		<br>
+		</div>
 	</section>
 	</body>
 </html>
