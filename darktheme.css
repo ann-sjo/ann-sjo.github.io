@@ -28,6 +28,9 @@ h4 {
 
 h5 {
 	color: #FFA731;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 h3 {
@@ -105,6 +108,7 @@ a:visited {
 .nav1 ul {
 	display: inline;
 	padding: 0px;
+	overflow: hidden;
 	
 }
 
