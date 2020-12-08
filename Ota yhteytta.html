@@ -17,10 +17,12 @@
 	<nav class="container nav1">
 		<div class="row">
 			<div class="col-sm">
-				<li><a href="index.html">Etusivu</a></li>
-				<li class="currentPage"><a href="Ota yhteytta.html">Ota yhteyttä</a></li>
-				<li><a href="Suosituksia.html">Suosituksia</a></li>
-				<li><a href="Vinkkejä.html">Vinkkejä</a></li>
+				<menu>
+					<li><a href="index.html">Etusivu</a></li>
+					<li class="currentPage"><a href="Otayhteytta.html">Ota yhteyttä</a></li>
+					<li><a href="Suosituksia.html">Suosituksia</a></li>
+					<li><a href="Vinkkejä.html">Vinkkejä</a></li>
+				</menu>
 			</div>
 		</div>
 	</nav>
@@ -54,6 +56,7 @@
 		<fieldset>
 			<legend><h3>Ota yhteyttä</h3></legend>
 			<!--Huom! Nämä kentät vain demonstroivat osaamista, jos perheenjäsenellä on IT-pulma, hän soittaa suoraan.-->
+			<form>
 				<label>Anna etunimesi:</label>
 					<input type="text" id="name" placeholder="Syötä nimesi" required>
 				<br>
@@ -63,7 +66,7 @@
 				<label>Ongelma on kiireellinen</label>
 					<input type="checkbox" id="checkbox">
 				<br>
-				<label for="comment">Kuvaile mikä on vikana:</label>
+				<label>Kuvaile mikä on vikana:</label>
 					<textarea class="form-control" rows="5" cols="70" id="text_area"></textarea>
 				<br>
 				<input type="submit" value="Lähetä">
